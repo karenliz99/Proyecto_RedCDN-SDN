@@ -1,0 +1,120 @@
+R29
+enable
+config terminal
+router ospf 1
+router-id 1.1.1.1
+network 200.21.27.0 0.0.0.3 area 0
+network 200.21.27.4 0.0.0.3 area 0
+network 200.21.27.56 0.0.0.3 area 0
+network 20.0.0.64 0.0.0.15 area 0
+network 10.0.0.64 0.0.0.15 area 0
+network 10.0.0.80 0.0.0.15 area 0
+
+R30
+enable
+config terminal
+router ospf 1
+router-id 2.2.2.2
+network 200.21.27.0 0.0.0.3 area 0
+network 200.21.27.8 0.0.0.3 area 0
+network 10.0.0.96 0.0.0.15 area 0
+network 10.0.0.112 0.0.0.15 area 0
+network 100.0.0.64 0.0.0.15 area 0
+exit
+exit
+
+R31
+enable
+config terminal
+router ospf 1
+router-id 3.3.3.3
+network 200.21.27.4 0.0.0.3 area 0
+network 200.21.27.8 0.0.0.3 area 0
+network 200.21.27.12 0.0.0.3 area 0
+network 200.21.27.16 0.0.0.3 area 0
+network 20.0.0.80 0.0.0.15 area 0
+network 20.0.0.96 0.0.0.15 area 0
+exit
+exit
+
+R32
+enable
+config terminal
+router ospf 1
+router-id 4.4.4.4
+network 200.21.27.12 0.0.0.3 area 0
+network 200.21.27.20 0.0.0.3 area 0
+network 200.21.27.44 0.0.0.3 area 0
+network 30.0.0.64 0.0.0.15 area 0
+network 30.0.0.80 0.0.0.15 area 0
+network 100.0.0.80 0.0.0.15 area 0
+
+R33
+enable
+config terminal
+router ospf 1
+router-id 5.5.5.5
+network 200.21.27.32 0.0.0.3 area 0
+network 200.21.27.44 0.0.0.3 area 0
+network 200.21.27.56 0.0.0.3 area 0
+network 30.0.0.96 0.0.0.15 area 0
+network 30.0.0.112 0.0.0.15 area 0
+
+R34
+enable
+config terminal
+router ospf 1
+router-id 6.6.6.6
+network 200.21.27.16 0.0.0.3 area 0
+network 200.21.27.20 0.0.0.3 area 0
+network 200.21.27.24 0.0.0.3 area 0
+network 200.21.27.28 0.0.0.3 area 0
+network 100.0.0.128 0.0.0.15 area 0
+
+R35
+enable
+config terminal
+router ospf 1
+router-id 7.7.7.7
+network 200.21.27.24 0.0.0.3 area 0
+network 200.21.27.32 0.0.0.3 area 0
+network 200.21.27.36 0.0.0.3 area 0
+network 200.21.27.48 0.0.0.3 area 0
+network 200.21.27.52 0.0.0.3 area 0
+network 50.0.0.64 0.0.0.15 area 0
+network 50.0.0.80 0.0.0.15 area 0
+
+R36
+enable
+config terminal
+router ospf 1
+router-id 8.8.8.8
+network 200.21.27.36 0.0.0.3 area 0
+network 200.21.27.40 0.0.0.3 area 0
+network 40.0.0.64 0.0.0.15 area 0
+network 40.0.0.80 0.0.0.15 area 0
+network 100.0.0.96 0.0.0.15 area 0
+
+R37
+enable
+config terminal
+router ospf 1
+router-id 9.9.9.9
+network 200.21.27.52 0.0.0.3 area 0
+network 50.0.0.96 0.0.0.15 area 0
+network 50.0.0.112 0.0.0.15 area 0
+network 100.0.0.112 0.0.0.15 area 0
+
+R38
+enable
+config terminal
+router ospf 1
+router-id 10.10.10.10
+network 200.21.27.28 0.0.0.3 area 0
+network 200.21.27.40 0.0.0.3 area 0
+network 200.21.27.48 0.0.0.3 area 0
+network 40.0.0.96 0.0.0.15 area 0
+network 40.0.0.112 0.0.0.15 area 0
+
+
+
